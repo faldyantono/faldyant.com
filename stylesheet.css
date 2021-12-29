@@ -25,7 +25,7 @@ body {
   background-size:cover;
   }
   .container {
-      width:1170px;
+      width:100%;
       margin:0 auto;
   }
   .container p {
@@ -149,15 +149,20 @@ body {
 
 .lesson-icon p {
   position: absolute;
-  top: 44%;
-  width: 100%;
+  top: 38%;
+  width: 50%;
   color: white;
+  padding-left:6px;
+  margin-left:60px;
+  line-height: 1.;
+  vertical-align: middle;
+  
 }
 
 .text-contents {
-  width: 80%;
+  width: 90%;
   display: inline-block;
-  margin-top: 15px;
+  margin-top: 30px;
   font-size: 15px;
   color: #b3aeb5;
 }
@@ -167,16 +172,17 @@ body {
 }
 
 .message-wrapper {
-  border-bottom: 1px solid #eee;
+  border-bottom: 5px solid #eee;
   padding-bottom: 80px;
+  padding-left:10px;
   text-align: center;
 }
 
 .message {
   padding: 15px 40px;
-  background-color: #5dca88;
+  background-color: gold;
   cursor: pointer;
-  box-shadow: 0 7px #1a7940;
+  box-shadow: 0 7px orange;
 }
 
 .message:active {
@@ -198,4 +204,7 @@ footer {
   padding-top: 30px;
   padding-bottom: 20px;
 }
-  
+  p span {
+    display:block;
+    
+  }
