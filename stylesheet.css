@@ -1,18 +1,22 @@
 body {
     font-family:"cursive";
 }
-'.title {
-    color: whitesmoke;
+.title {
+    margin-top:1px;
+    width:480px;
+    color: White;
     text-align:center;
-    background-color: aquamarine;
-    border-radius:20px;
-    opacity: 0.8;
-    width:fit-content
+    Background-color:gold;
+    border-radius:8px;
+    FONT-SIZE:50px;
+    display:inline-block;
+          box-sizing: border-box;
   }
+  
   .title p {
       box-sizing: border-box;
       color:whitesmoke;
-      background-color:royalblue
+      background-color:royalblue;
   }
   .top-wrapper {
   padding: 180px 0 100px 0;
@@ -24,6 +28,9 @@ body {
   .container {
       width:1170px;
       margin:0 auto;
+  }
+  .container p {
+    font-size:24px;
   }
 
   .top-wrapper h1 {
@@ -48,11 +55,13 @@ body {
   
   .econometrics {
     background-color: #239b76;
+    font-style:none;
   }
   
   .statistics {
     background-color: #3b5998;
     margin-right: 10px;
+    font-style:none;
   }
 
   
