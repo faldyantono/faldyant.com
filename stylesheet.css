@@ -150,10 +150,11 @@ body {
 .lesson-icon p {
   position: absolute;
   top: 38%;
-  width: 50%;
+  width: 40%;
+  height:300px;
   color: white;
   padding-left:6px;
-  margin-left:80px;
+  margin-left:90px;
   line-height: 1.;
   vertical-align: middle;
   
