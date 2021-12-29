@@ -1,4 +1,11 @@
 .title {
-    color: #02ccba;
+    color: whitesmoke;
+    text-align:center;
+    background-color: aquamarine;
+    width:fit-content
   }
-  
+  .title p {
+      box-sizing: border-box;
+      color:whitesmoke;
+      background-color:royalblue
+  }
