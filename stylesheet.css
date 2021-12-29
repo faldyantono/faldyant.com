@@ -1,11 +1,73 @@
-.title {
+body {
+    font-family:"cursive";
+}
+'.title {
     color: whitesmoke;
     text-align:center;
     background-color: aquamarine;
+    border-radius:20px;
+    opacity: 0.8;
     width:fit-content
   }
   .title p {
       box-sizing: border-box;
       color:whitesmoke;
       background-color:royalblue
+  }
+  .top-wrapper {
+  padding: 180px 0 100px 0;
+  text-align:center;
+  color:white;
+  background-image: url(https://www.teahub.io/photos/full/210-2105335_6uhhe19yg7-programming-laptop..png);
+  background-size:cover;
+  }
+  .container {
+      width:1170px;
+      margin:0 auto;
+  }
+
+  .top-wrapper h1 {
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .top-wrapper p {
+    opacity: 0.7;
+    margin-bottom: 3px;
+  }
+  
+  .btn-wrapper {
+    margin: 20px 0;
+  }
+  
+  .btn-wrapper p {
+    margin: 10px 0;
+  }
+  
+  .econometrics {
+    background-color: #239b76;
+  }
+  
+  .statistics {
+    background-color: #3b5998;
+    margin-right: 10px;
+  }
+
+  
+  .btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  
+  .fa {
+    margin-right: 5px;
   }
