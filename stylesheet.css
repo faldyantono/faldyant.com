@@ -1,12 +1,11 @@
 body {
-    font-family:"cursive";
+    font-family:"Lucida Grande";
 }
 .title {
     margin-top:1px;
     width:480px;
     color: White;
     text-align:center;
-    Background-color:royalblue;
     border-radius:8px;
     FONT-SIZE:50px;
     display:inline-block;
@@ -19,10 +18,10 @@ body {
       background-color:royalblue;
   }
   .top-wrapper {
-  padding: 180px 0 100px 0;
+  padding: 180px 0 10px 0;
   text-align:center;
   color:white;
-  background-image: url(https://c4.wallpaperflare.com/wallpaper/447/85/162/computer-lights-glow-blur-wallpaper-preview.jpg);
+  background-image: url(https://c0.wallpaperflare.com/preview/955/709/295/analysis-banking-business-businesswoman.jpg);
   background-size:cover;
   }
   .container {
@@ -30,7 +29,7 @@ body {
       margin:0 auto;
   }
   .container p {
-    font-size:24px;
+    font-size:20px;
   }
 
   .top-wrapper h1 {
@@ -63,7 +62,10 @@ body {
     margin-right: 10px;
     font-style:none;
   }
-
+.GIS {
+  background-color: #55acee;
+  width:auto
+}
   
   .btn {
     padding: 12px 24px;
@@ -71,12 +73,129 @@ body {
     display: inline-block;
     opacity: 0.8;
     border-radius: 4px;
+    width:150px;
   }
   
   .btn:hover {
     opacity: 1;
   }
   
+  header {
+  height: 85px;
+  width: 100%;
+  background-color: paleturquoise;
+  opacity:0.5;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+.logo {
+  height:70px;
+  margin-top:8px;
+  float:left;
+}
+.header-left{
+  float:left;
+}
+.header-right{
+  float:right;
+  line-height: 85px;
+  padding: 0 25px;
+  display: block;
+  transition: all 0.5s;
+  color: white;
+}
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.menu-icon{
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+
   .fa {
     margin-right: 5px;
   }
+  .lesson-wrapper {
+  padding-bottom: 400px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: white;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+  
