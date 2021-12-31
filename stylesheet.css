@@ -31,17 +31,6 @@ body {
   .container p {
     font-size:20px;
   }
-  .header-right a{
-    font-size:20px;
-    border-radius:10px;
-    display:inline-block;
-    color:white;
-    background-color:goldenrod;
-    margin-left:20px;
-    cursor: pointer;
-    text-decoration:none;
-
-  }
 
   .top-wrapper h1 {
     opacity: 0.7;
@@ -115,10 +104,16 @@ body {
   display: block;
   transition: all 0.5s;
   color: white;
+  font-size:20px;
+  display:inline-block;
+  color:green;
+  cursor: pointer;
+  text-decoration:none;
+   font-weight: bold;
 }
 .header-right a:hover {
   color:blue;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: goldenrod;
 }
 
 .menu-icon{
