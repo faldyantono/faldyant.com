@@ -1,3 +1,5 @@
+* {
+  box-sizing: border-box;
 body {
     font-family:"Lucida Grande";
     margin:0px;
@@ -26,8 +28,9 @@ body {
   background-size:cover;
   }
   .container {
-      width:100%;
-      margin:0 auto;
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
   }
   .container p {
     font-size:20px;
