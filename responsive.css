@@ -1,3 +1,11 @@
+@media all and (max-width: 1200px) {
+      .lesson-icon p{
+        padding-left:80px;
+        padding-top:20px;
+      }
+      .footer img{
+        padding-left:20px;
+}
 @media all and (max-width: 1000px) {
     .container{
       padding-top:5px;
@@ -13,13 +21,13 @@
       }
       
       .lesson {
-        width: 40%;
+        width: 42%;
         margin-bottom: 100px;
         margin-top:-20px;
-        padding-left:40px;
+        padding-left:20px;
       }
       .lesson-icon p{
-        margin-left:45px;
+        padding-left:60px;
         margin-top:-10px;
       }
       .text-contents {
@@ -99,7 +107,6 @@
       .top-wrapper p {
         font-size: 14px;
         line-height: 20px;
-        
       }
       
       .lesson {
@@ -117,7 +124,7 @@
   
       }
       .lesson-icon p{
-        margin-left:45px;
+        padding-left:65px;
         margin-top:-10px;
     
       }
