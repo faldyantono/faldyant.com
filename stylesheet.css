@@ -1,5 +1,3 @@
-* {
-  box-sizing: border-box;
 body {
     font-family:"Lucida Grande";
     margin:0px;
@@ -28,9 +26,8 @@ body {
   background-size:cover;
   }
   .container {
-    max-width: 1170px;
-    padding: 0 15px;
-    margin: 0 auto;
+      width:100%;
+      margin:0 auto;
   }
   .container p {
     font-size:20px;
@@ -160,8 +157,8 @@ body {
 
 .lesson-icon p {
   position: absolute;
-  top: 26%;
-  width: 38%;
+  top: 50px;
+  width: 40%;
   height:300px;
   color: white;
   padding-left:127px;
